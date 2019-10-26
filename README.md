@@ -1,15 +1,13 @@
-CleanPress
-==========
+CleanPress Modern
+=================
 CleanPress is an elegant, clean & white minimal and responsive theme for [Octopress](http://octopress.org) and originally a fork of the OctoPress Slash Theme.
-
-Check out the theme in action [here](http://macjasp.github.io).
-
+This is a modernized version of the [CleanPress fork](https://github.com/paulicarmody/cleanpress). It includes fixes to address some best practice, accessibility, and SEO issues.
 
 Install
 -------
     $ cd octopress
-    $ git clone git://github.com/macjasp/cleanpress.git .themes/cleanpress
-    $ rake install['cleanpress'] (or rake "install[cleanpress]")
+    $ git submodule add git://github.com/seabre/cleanpress-modern.git .themes/cleanpress-modern
+    $ rake install['cleanpress-modern'] (or rake "install[cleanpress-modern]")
     $ rake generate
 
 
@@ -23,7 +21,7 @@ License
 -------
 (The MIT License)
 
-Copyright © 2013 macjasp.
+Copyright © 2013 macjasp, Sean Brewer.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
